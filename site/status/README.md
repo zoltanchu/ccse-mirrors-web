@@ -1,10 +1,10 @@
 # Status
 
-## CPU Usage
+<!-- ## CPU Usage
 <picture>
     <source srcset="/status/cpu-dark.png" media="(prefers-color-scheme: dark)">
     <img src="/status/cpu-light.png">
-</picture>
+</picture> -->
 
 ## Memory Usage
 <picture>
