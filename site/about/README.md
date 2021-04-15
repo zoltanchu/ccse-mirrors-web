@@ -27,4 +27,4 @@ next: false
 
 ## 贡献者
 
-- [Contributors](./contributors)
+- [Contributors](./contributors.html)
