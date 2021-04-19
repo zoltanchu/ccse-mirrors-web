@@ -82,6 +82,10 @@ module.exports = {
             link: '/about/'
           },
           {
+            text: 'Git Service',
+            link: 'https://mirrors.sustech.edu.cn/git/'
+          },
+          {
             text: 'SUSTech CCSE',
             link: 'http://hpc.sustech.edu.cn/'
           },
