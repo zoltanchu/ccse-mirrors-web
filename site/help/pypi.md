@@ -5,7 +5,7 @@ prev: false
 next: false
 ---
 
-# PyPI Mirror
+# [PyPI](/pypi/simple/) Mirror
 
 ## Introduction
 

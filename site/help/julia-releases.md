@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Julia Releases
+# [Julia Releases](/julia-releases/) Mirror
 
 ## Julia 二进制安装程序
 

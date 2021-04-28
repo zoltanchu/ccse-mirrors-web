@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Arch Linux CN Mirror
+# [Arch Linux CN](/archlinuxcn/) Mirror
 
 ## Introduction
 

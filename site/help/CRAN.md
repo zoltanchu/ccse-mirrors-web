@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# CRAN Mirror
+# [CRAN](/CRAN/) Mirror
 
 ## Temporary Use
 

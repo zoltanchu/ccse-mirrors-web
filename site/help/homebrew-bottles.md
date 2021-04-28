@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Homebrew-bottles Mirror
+# [Homebrew-bottles](/homebrew-bottles/) Mirror
 
 ## Introduction
 

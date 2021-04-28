@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Raspberrypi Mirror
+# [Raspberrypi](/raspberrypi/) Mirror
 
 ## Configuration
 

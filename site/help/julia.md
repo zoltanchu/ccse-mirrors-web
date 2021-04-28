@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Julia Mirror
+# [Julia](/julia/) Mirror
 
 TUNA 目前提供了 Julia 的官方包注册表 [General](https://github.com/JuliaRegistries/General) 镜像来加速 Julia 包的安装。
 TUNA 同时也提供了 Julia 二进制程序的镜像，关于其使用请参考 [Julia Releases](/help/julia-releases.html).

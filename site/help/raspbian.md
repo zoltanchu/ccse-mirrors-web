@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Raspbian Mirror
+# [Raspbian](/raspbian/) Mirror
 
 ## Configuration
 

@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Arch Linux Mirror
+# [Arch Linux](/archlinux) Mirror
 
 ## Introduction
 

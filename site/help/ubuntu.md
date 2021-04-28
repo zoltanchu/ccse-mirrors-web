@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Ubuntu Mirror
+# [Ubuntu](/ubuntu/) Mirror
 
 ## Introduction
 

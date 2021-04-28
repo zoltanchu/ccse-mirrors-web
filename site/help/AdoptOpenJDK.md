@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# AdoptOpenJDK Mirrors
+# [AdoptOpenJDK](/AdoptOpenJDK) Mirrors
 
 ## Windows/macOS 用户
 

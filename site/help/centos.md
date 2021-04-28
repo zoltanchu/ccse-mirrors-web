@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# CentOS Mirror
+# [CentOS](/centos/) Mirror
 
 ## Introduction
 

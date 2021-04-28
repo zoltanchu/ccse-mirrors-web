@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Anaconda Mirror
+# [Anaconda](/anaconda) Mirror
 
 ## Introduction
 

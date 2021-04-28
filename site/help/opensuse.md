@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Opensuse Mirror
+# [Opensuse](/opensuse/) Mirror
 
 ## Introduction
 

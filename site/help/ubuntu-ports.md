@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Ubuntu-ports Mirror
+# [Ubuntu-ports](/ubuntu-ports/) Mirror
 
 ## Configuration
 

@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Homebrew Mirror
+# [Homebrew](/homebrew/) Mirror
 
 ## Introduction
 

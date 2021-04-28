@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Deepin Mirror
+# [Deepin](/deepin/) Mirror
 
 ## Introduction
 

@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Fedora Mirror
+# [Fedora](/fedora/) Mirror
 
 Fedora 默认使用 [Metalink](https://zh.fedoracommunity.org/2018/04/05/fedora-secures-package-delivery.html) 给出推荐的镜像列表，保证用户使用的镜像仓库足够新，并且能够尽快拿到安全更新，从而提供更好的安全性。所以通常情况下使用默认配置即可，无需更改配置文件。
 

@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Zerotier Mirror
+# [Zerotier](/zerotier/) Mirror
 
 ## 介绍
 

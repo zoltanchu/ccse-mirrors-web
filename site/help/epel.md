@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# EPEL Mirror
+# [EPEL](/epel/) Mirror
 
 ## Introduction
 

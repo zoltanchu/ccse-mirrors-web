@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Manjaro Mirror
+# [Manjaro](/manjaro/) Mirror
 
 ## Introduction
 

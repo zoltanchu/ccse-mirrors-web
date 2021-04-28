@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# CTAN Mirror
+# [CTAN](/CTAN/) Mirror
 
 ## Temporary Update
 

@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Debian Mirror
+# [Debian](/debian/) Mirror
 
 ## Introduction
 
