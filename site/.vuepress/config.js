@@ -6,22 +6,11 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'SUSTech Open Source Mirrors',
-      description: 'Open source mirror site supported by SUSTech Center for Computational Science and Engineering & SUSTech Computer Research Association',
+      title: 'SDUST Open Source Mirrors',
+      description: 'Open source mirror site supported by SDUST',
     }
   },
   head: [
-    ['script', {
-        async: true,
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-0KD226TRZ5'
-    }],
-    ['script', {}, `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-0KD226TRZ5');
-    `],
   ],
   plugins: [
     [
@@ -53,7 +42,7 @@ module.exports = {
     [
       'sitemap',
       {
-        hostname: 'https://mirrors.sustech.edu.cn'
+        hostname: 'http://mirrors.sdust.edu.cn'
       },
     ]
   ],
@@ -74,30 +63,22 @@ module.exports = {
             link: '/help/'
           },
           {
-            text: 'Status',
-            link: '/status/'
-          },
-          {
             text: 'About',
             link: '/about/'
           },
           {
-            text: 'Git Service',
-            link: 'https://mirrors.sustech.edu.cn/git/'
+            text: 'Github',
+            link: 'https://github.com/sdust.edu.cn'
           },
           {
-            text: 'SUSTech CCSE',
-            link: 'http://hpc.sustech.edu.cn/'
-          },
-          {
-            text: 'SUSTech CRA',
-            link: 'https://blog.sustcra.com/'
+            text: 'ykoa',
+            link: 'https://yk.sdust.edu.cn'
           }
         ],
         sidebar: {}
       }
     },
-    docsRepo: 'SUSTech-CRA/ccse-mirrors-web',
+    docsRepo: 'sdustlug/ccse-mirrors-web',
     docsDir: 'site',
     editLinks: true,
     editLinkText: 'Edit on GitHub',
