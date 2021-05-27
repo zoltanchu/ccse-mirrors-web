@@ -30,6 +30,6 @@ export function job2Mirror(job) {
     name: job.name,
     status: job.status,
     alert: alert,
-    lastUpdated: moment(job.last_update, "YYYY-MM-DD HH:mm:ss ZZ").fromNow()
+    lastUpdated: moment(job.last_update_ts, "X").fromNow()
   }
 }
