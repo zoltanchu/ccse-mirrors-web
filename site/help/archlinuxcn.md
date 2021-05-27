@@ -12,14 +12,14 @@ next: false
 
 ## Configuration
 
-使用方法：在 /etc/pacman.conf 文件末尾添加以下两行：
+使用方法：在 `/etc/pacman.conf` 文件末尾添加以下两行：
 
 ``` toml
 [archlinuxcn]
 Server = http://mirrors.sdust.edu.cn/archlinuxcn/$arch
 ```
 
-之后安装 archlinuxcn-keyring 包以导入 GPG key：
+之后安装 `archlinuxcn-keyring` 包以导入 GPG key：
 
 ``` sh
 pacman -Syu archlinuxcn-keyring

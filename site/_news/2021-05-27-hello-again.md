@@ -10,8 +10,8 @@ editLink: false
 
 <!-- more -->
 
-这此同步管理工具由 `tunasync` 换到了 `[mugi](https://github.com/sdustlug/mugi)`.
+这此同步管理工具由 `tunasync` 换到了 [mugi](https://github.com/sdustlug/mugi).
 
-前端管理页面也换到了 `[ccse-mirrors-web](https://github.com/sdustlug/ccse-mirrors-web)`
+前端管理页面也换到了 [ccse-mirrors-web](https://github.com/sdustlug/ccse-mirrors-web)
 
 有任何问题可以联系 [lug@sdust.edu.cn](mailto:lug@sdust.edu.cn) !
