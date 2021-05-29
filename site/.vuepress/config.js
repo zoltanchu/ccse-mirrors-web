@@ -68,7 +68,7 @@ module.exports = {
           },
           {
             text: 'Github',
-            link: 'https://github.com/sdust.edu.cn'
+            link: 'https://github.com/sdustlug'
           },
           {
             text: 'ykoa',
