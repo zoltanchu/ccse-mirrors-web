@@ -90,7 +90,6 @@ export default {
         }
         return 0;
         });
-      console.log(jobsRawData);
       return jobsRawData.map(j => data.job2Mirror(j))
     },
 
