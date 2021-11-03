@@ -8,7 +8,7 @@ Make sure you have [Yarn](https://yarnpkg.com/) installed. (You may use NPM inst
 
 ``` sh
 # Retrieve source code
-git clone https://github.com/ziqin/ccse-mirrors-web.git
+git clone https://github.com/SUSTech-CRA/ccse-mirrors-web.git
 
 # Install development dependencies
 cd ccse-mirrors-web
