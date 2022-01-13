@@ -7,18 +7,64 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    name: Build site
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
       with:
         fetch-depth: 0
 
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@1.0.1
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: SUSTech-CRA/ccse-mirrors-web
-        TARGET_BRANCH: static-site
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: site/.vuepress/dist/
-        TZ: Asia/Shanghai
+    - uses: szenius/set-timezone@v1.0
+      with:
+        timezoneLinux: "Asia/Shanghai"
+
+    - name: Check Time
+      run: date
+
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Check yarn / node version
+      run: |
+        echo "yarn version `yarn --version`"
+        echo "node version `node -v`"
+
+    - name: Cache dependencies
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: npm-${{ hashFiles('package-lock.json') }}
+        restore-keys: npm-
+
+    - name: Install Dependencies
+      run: yarn install
+
+    - name: Build Site
+      run: yarn build
+      
+    - name: Deploy to GitHub page
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.ACCESS_TOKEN }}
+        publish_dir: ./site/.vuepress/dist/
+        publish_branch: static-site
+        force_orphan: true
+        
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Checkout
+#       uses: actions/checkout@master
+#       with:
+#         fetch-depth: 0
+
+#     - name: vuepress-deploy
+#       uses: jenkey2011/vuepress-deploy@1.0.1
+#       env:
+#         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+#         TARGET_REPO: SUSTech-CRA/ccse-mirrors-web
+#         TARGET_BRANCH: static-site
+#         BUILD_SCRIPT: yarn && yarn build
+#         BUILD_DIR: site/.vuepress/dist/
+#         TZ: Asia/Shanghai
