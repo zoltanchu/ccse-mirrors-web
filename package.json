@@ -5,16 +5,16 @@
     "build": "vuepress build site"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.8.0",
+    "@vuepress/plugin-back-to-top": "^1.9.5",
     "@vuepress/plugin-blog": "^1.9.4",
-    "@vuepress/plugin-google-analytics": "^1.8.0",
-    "@vuepress/plugin-pwa": "^1.8.0",
+    "@vuepress/plugin-google-analytics": "^1.9.5",
+    "@vuepress/plugin-pwa": "^1.9.5",
     "moment": "^2.29.1",
-    "vue-icon": "^2.1.2",
-    "vuepress": "^1.8.0"
+    "vue-icon": "^2.2.0",
+    "vuepress": "^1.9.5"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.24.0",
     "esm": "^3.2.25",
     "vuepress-plugin-sitemap": "^2.3.1"
   }
