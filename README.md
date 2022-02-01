@@ -13,7 +13,18 @@ git clone https://github.com/SUSTech-CRA/ccse-mirrors-web.git
 # Install development dependencies
 cd ccse-mirrors-web
 yarn install
+```
 
+```diff
+# Modifications before running locally
+# The head of "site/.vuepress/theme/util/tunasyncAdapter.js"
+- export const apiEndpoint = "/api/jobs"
+- // export const apiEndpoint = "//mirrors.sustech.edu.cn/api/jobs"
++ // export const apiEndpoint = "/api/jobs"
++ export const apiEndpoint = "//mirrors.sustech.edu.cn/api/jobs"
+```
+
+```sh
 # Start your journey now
 yarn dev
 ```
