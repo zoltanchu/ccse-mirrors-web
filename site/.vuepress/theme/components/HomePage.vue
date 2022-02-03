@@ -6,6 +6,36 @@
       </div>
       <div class="right-sidebar">
         <NewsPanel :pages="pages" basePath="/news/"/>
+        <div class="download-wrapper">
+          <b-button v-b-modal.isomodal>获取下载链接</b-button>
+
+          <b-modal id="isomodal" title="获取安装镜像" static hide-footer scrollable size="xl">
+            <div>
+              <b-tabs content-class="mt-3">
+                <b-tab title="操作系统">
+                    <b-tabs pills card vertical>
+                      <b-tab v-for="item in this.isoinfo.filter(item => item.category === 'os')" :key="item.distro" :title='item.distro'>
+                        <h3>{{item.distro}}</h3>
+                        <ul>
+                          <li v-for="arry in item.urls" :key="arry.url"><a :href="arry.url">{{arry.name}}</a></li>
+                        </ul>
+                      </b-tab>
+                    </b-tabs>
+                </b-tab>
+                <b-tab title="应用软件">
+                  <b-tabs pills card vertical>
+                    <b-tab v-for="item in this.isoinfo.filter(item => item.category === 'app')" :key="item.distro" :title='item.distro'>
+                      <h3>{{item.distro}}</h3>
+                      <ul>
+                        <li v-for="arry in item.urls" :key="arry.url"><a :href="arry.url">{{arry.name}}</a></li>
+                      </ul>
+                    </b-tab>
+                  </b-tabs>
+                </b-tab>
+              </b-tabs>
+            </div>
+          </b-modal>
+        </div>
       </div>
     </div>
     <footer class="footer">
@@ -19,12 +49,30 @@
 </template>
 
 <script>
+import { get } from "axios"
 import MirrorsIndex from '@theme/components/MirrorsIndex.vue'
 import NewsPanel from '@theme/components/NewsPanel.vue'
 
 export default {
   components: { MirrorsIndex, NewsPanel },
-  props: ['sidebarItems', 'pages']
+  props: ['sidebarItems', 'pages'],
+  created () {
+    this.loadisoinfo()
+  },
+  data() {
+    return {
+      isoinfo: [],
+    }
+  },
+  methods: {
+    loadisoinfo () {
+      get("/isoinfo.json")
+        .then((resp) => {
+          this.isoinfo = resp.data
+        })
+        .catch((err) => console.error(err))
+    },
+  }
 }
 </script>
 
@@ -98,3 +146,11 @@ $rightWrapper
   @extend $leftWrapper
   padding 0.5rem 0
 </style>
+
+<style lang="scss" scoped>
+.download-wrapper ::v-deep {
+  @import "~bootstrap/scss/bootstrap";
+}
+</style>
+
+<style lang="css" src="bootstrap-vue/dist/bootstrap-vue.min.css"></style>
