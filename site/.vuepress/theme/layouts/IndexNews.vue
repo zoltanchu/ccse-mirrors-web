@@ -219,6 +219,10 @@ export default {
   h3
     font-size 1.2rem
 
+  ul li
+    border 0px
+    margin 0.5rem
+
 .page-nav-container
   @extend $wrapper
   text-align center
