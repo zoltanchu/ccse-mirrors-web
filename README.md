@@ -15,13 +15,14 @@ cd ccse-mirrors-web
 yarn install
 ```
 
-```diff
-# Modifications before running locally
+```text
+# Modify api endpoint before running locally
+
 # The head of "site/.vuepress/theme/util/tunasyncAdapter.js"
-- export const apiEndpoint = "/api/jobs"
-- // export const apiEndpoint = "//mirrors.sustech.edu.cn/api/jobs"
-+ // export const apiEndpoint = "/api/jobs"
-+ export const apiEndpoint = "//mirrors.sustech.edu.cn/api/jobs"
+# const apiEndpoint
+
+# The file of "site/.vuepress/theme/components/IsoModalPanel.vue"
+# const isoinfoEndpoint
 ```
 
 ```sh

@@ -82,14 +82,8 @@ export default {
         jobsRawData = this.jobsRawData.filter(j => data.doesJobMatch(j, this.searchKey))
       }
       jobsRawData.sort(function (a, b) {
-        if (a.name < b.name) {
-          return -1;
-        }
-        if (a.name > b.name) {
-          return 1;
-        }
-        return 0;
-        });
+        return ('' + a.name).localeCompare(b.name)
+      })
       return jobsRawData.map(j => data.job2Mirror(j))
     },
 
