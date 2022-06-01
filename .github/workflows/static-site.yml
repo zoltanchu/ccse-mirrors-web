@@ -1,5 +1,6 @@
 name: Build static site
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
