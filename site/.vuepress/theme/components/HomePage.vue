@@ -6,7 +6,7 @@
       </div>
       <div class="right-sidebar">
         <NewsPanel :pages="pages" basePath="/news/"/>
-        <IsoModalPanel/>
+        <!-- <IsoModalPanel/> -->
       </div>
     </div>
     <footer class="footer">
@@ -22,10 +22,11 @@
 <script>
 import MirrorsIndex from '@theme/components/MirrorsIndex.vue'
 import NewsPanel from '@theme/components/NewsPanel.vue'
-import IsoModalPanel from '@theme/components/IsoModalPanel.vue'
+// import IsoModalPanel from '@theme/components/IsoModalPanel.vue'
 
 export default {
-  components: {MirrorsIndex, NewsPanel, IsoModalPanel},
+  // components: {MirrorsIndex, NewsPanel, IsoModalPanel},
+  components: {MirrorsIndex, NewsPanel},
   props: ['sidebarItems', 'pages'],
 }
 </script>
