@@ -69,10 +69,6 @@ module.exports = {
           {
             text: 'Github',
             link: 'https://github.com/sdustlug'
-          },
-          {
-            text: 'ykoa',
-            link: 'https://yk.sdust.edu.cn'
           }
         ],
         sidebar: {}

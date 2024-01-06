@@ -6,11 +6,7 @@ next: false
 
 # 欢迎使用山东科技大学开源镜像站
 
-本站由山东科技大学大学生科技发展中心支持创办，由SDUSTLUG运行维护。
-
-## 其他链接
-
-益科创新工作室：[https://yk.sdust.edu.cn/](https://yk.sdust.edu.cn/)
+本站由山东科技大学大学生科技发展中心支持创办，由 SDUSTLUG 运行维护。
 
 ## 联系我们
 
