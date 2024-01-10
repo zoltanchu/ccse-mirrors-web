@@ -63,6 +63,10 @@ module.exports = {
             link: '/help/'
           },
           {
+            text: 'Status',
+            link: '/status/'
+          },
+          {
             text: 'About',
             link: '/about/'
           },
