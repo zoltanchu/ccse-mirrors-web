@@ -2,20 +2,20 @@
 
 ## CPU Usage
 <picture>
-    <source srcset="/status/cpu-dark.png" media="(prefers-color-scheme: dark)">
-    <img src="/status/cpu-light.png">
+    <source srcset="/status/static/cpu-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="/status/static/cpu-light.png">
 </picture>
 
 ## Memory Usage
 <picture>
-    <source srcset="/status/ram-dark.png" media="(prefers-color-scheme: dark)">
-    <img src="/status/ram-light.png">
+    <source srcset="/status/static/ram-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="/status/static/ram-light.png">
 </picture>
 
 ## Disk Throughput
 <picture>
-    <source srcset="/status/disk-dark.png" media="(prefers-color-scheme: dark)">
-    <img src="/status/disk-light.png">
+    <source srcset="/status/static/disk-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="/status/static/disk-light.png">
 </picture>
 
 ## Network Traffic
