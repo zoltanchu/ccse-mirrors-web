@@ -4,12 +4,12 @@ module.exports = {
   base: '/',
 
   locales: {
-    '/': {
+    '/en/': {
       lang: 'en-US',
       title: 'SDUST Open Source Mirrors',
       description: 'Open source mirror site supported by SDUST',
     },
-    '/zh/': {
+    '/': {
       lang: 'zh-CN',
       title: '山东科技大学开源软件镜像站',
       description: '山东科技大学开源软件镜像站',
@@ -54,7 +54,7 @@ module.exports = {
 
   themeConfig: {
     locales: {
-      '/': {
+      '/en/': {
         nav: [{
             text: 'Home',
             link: '/'
@@ -82,7 +82,7 @@ module.exports = {
         ],
         sidebar: {}
       },
-      '/zh/': {
+      '/': {
         nav: [{
             text: '主页',
             link: '/'
