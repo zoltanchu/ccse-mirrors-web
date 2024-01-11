@@ -8,6 +8,11 @@ module.exports = {
       lang: 'en-US',
       title: 'SDUST Open Source Mirrors',
       description: 'Open source mirror site supported by SDUST',
+    },
+    '/zh/': {
+      lang: 'zh-CN',
+      title: '山东科技大学开源软件镜像站',
+      description: '山东科技大学开源软件镜像站',
     }
   },
   head: [
@@ -68,6 +73,34 @@ module.exports = {
           },
           {
             text: 'About',
+            link: '/about/'
+          },
+          {
+            text: 'Github',
+            link: 'https://github.com/sdustlug'
+          }
+        ],
+        sidebar: {}
+      },
+      '/zh/': {
+        nav: [{
+            text: '主页',
+            link: '/'
+          },
+          {
+            text: '公告',
+            link: '/news/'
+          },
+          {
+            text: '帮助',
+            link: '/help/'
+          },
+          {
+            text: '同步状态',
+            link: '/status/'
+          },
+          {
+            text: '关于',
             link: '/about/'
           },
           {
