@@ -19,19 +19,19 @@
 </picture>
 
 ## Network Traffic
-### Network Traffic (Last 24 Hours)
-<!-- <picture>
+<!-- ### Network Traffic (Last 24 Hours) -->
+<picture>
     <source srcset="/status/network-dark.png" media="(prefers-color-scheme: dark)">
     <img src="/status/network-light.png">
-</picture> -->
+</picture>
 
-### Network Traffic (Last 7 Days)
+<!-- ### Network Traffic (Last 7 Days) -->
 <!-- <picture>
-    <source srcset="/status/network-7d-dark.png" media="(prefers-color-scheme: dark)">
-    <img src="/status/network-7d-light.png">
+<source srcset="/status/network-7d-dark.png" media="(prefers-color-scheme: dark)">
+<img src="/status/network-7d-light.png">
 </picture> -->
 
-### Network Traffic (Last 30 Days)
+<!-- ### Network Traffic (Last 30 Days) -->
 <!-- <picture>
     <source srcset="/status/vnstat-dark.png" media="(prefers-color-scheme: dark)">
     <img src="/status/vnstat.png">
@@ -42,7 +42,7 @@
     <img src="/status/vnstat-last-month.png">
 </picture> -->
 
-### Top 15 URL Paths by Traffic (GB) Last Month
+<!-- ### Top 15 URL Paths by Traffic (GB) Last Month -->
 
 <!-- <picture>
     <source srcset="/site/log/url_traffic_dark.png" media="(prefers-color-scheme: dark)">
