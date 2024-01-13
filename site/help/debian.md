@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# [Debian](/debian/) 镜像
+# [Debian](https://mirrors.sdust.edu.cn/debian/) 源使用帮助
 
 ## 介绍
 

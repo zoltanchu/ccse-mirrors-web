@@ -4,22 +4,22 @@ prev: false
 next: false
 ---
 
-# [Arch Linux](/archlinux) Mirror
+# [Arch Linux](https://mirrors.sdust.edu.cn/archlinux/) 源使用帮助
 
-## Introduction
 
-[Arch Linux](https://manjaro.org/) is a famous rolling-release Linux distribution which follows the [KISS principle](https://en.wikipedia.org/wiki/KISS_principle).
+## 介绍
 
-## Configuration
+[Arch Linux](https://archlinux.org) 是一个轻量的、灵活的 Linux 发行版，遵循 K.I.S.S. 原则。
 
-Write the following line to `/etc/pacman.d/mirrorlist`:
+## 使用说明
+
+编辑 `/etc/pacman.d/mirrorlist`，在文件的最顶端添加
 
 ``` toml
-Server = http://mirrors.sdust.edu.cn/archlinux/stable/$repo/os/$arch
+Server = https://mirrors.sdust.edu.cn/archlinux/$repo/os/$arch
 ```
 
-## Update Repository Indexes
+::: tip
+国内用户，推荐另外使用 Arch Linux CN 源，请参考 [Arch Linux CN 源使用帮助](https://mirrors.sdust.edu.cn/help/archlinuxcn.html)
+:::
 
-``` sh
-sudo pacman -Syy
-```

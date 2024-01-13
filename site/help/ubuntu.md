@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# [Ubuntu](/ubuntu/) 镜像
+# [Ubuntu](https://mirrors.sdust.edu.cn/ubuntu/) 源使用帮助
 
 ## 介绍
 
