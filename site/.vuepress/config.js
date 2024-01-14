@@ -128,5 +128,21 @@ module.exports = {
     toc: {
       includeLevel: [2, 3, 4]
     }
-  }
+  },
+
+  // API Proxy
+  devServer: {
+    proxy: {
+      '/api': {
+        target: 'https://mirrors.sdust.edu.cn',
+        secure: false,
+        changeOrigin: true,
+      },
+      '/status/*.png': {
+        target: 'https://mirrors.sdust.edu.cn',
+        secure: false,
+        changeOrigin: true,
+      },
+    },
+  },
 }

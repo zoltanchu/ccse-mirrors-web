@@ -115,9 +115,7 @@ export default {
 
 
 <style lang="stylus" scoped>
-
-$sustechOrange = #ed6c00
-$sustechGreen = #2bb7b3
+@import "../../styles/palette.styl";
 
 h2
   border none
