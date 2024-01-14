@@ -4,7 +4,7 @@ This project builds the front-end website for [SUSTech CCSE Open Source Mirrors]
 
 ## Setup
 
-Make sure you have [Yarn](https://yarnpkg.com/) installed. (You may use NPM instead.)
+Make sure you have [pnpm](https://pnpm.io/) installed. (You may use NPM instead.)
 
 ``` sh
 # Retrieve source code
@@ -12,7 +12,7 @@ git clone https://github.com/SUSTech-CRA/ccse-mirrors-web.git
 
 # Install development dependencies
 cd ccse-mirrors-web
-yarn install
+pnpm install
 ```
 
 ```text
@@ -27,13 +27,13 @@ yarn install
 
 ```sh
 # Start your journey now
-yarn dev
+pnpm dev
 ```
 
 ## Build for Production
 
 ``` sh
-yarn build
+pnpm build
 ```
 
 By default, static files are generated in `site/.vuepress/dist/`. Publish the dist directory and you'll get your website.
