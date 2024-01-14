@@ -4,11 +4,6 @@ module.exports = {
   base: '/',
 
   locales: {
-    '/en/': {
-      lang: 'en-US',
-      title: 'SDUST Open Source Mirrors',
-      description: 'Open source mirror site supported by SDUST',
-    },
     '/': {
       lang: 'zh-CN',
       title: '山东科技大学开源软件镜像站',
@@ -54,34 +49,6 @@ module.exports = {
 
   themeConfig: {
     locales: {
-      '/en/': {
-        nav: [{
-            text: 'Home',
-            link: '/'
-          },
-          {
-            text: 'News',
-            link: '/news/'
-          },
-          {
-            text: 'Help',
-            link: '/help/'
-          },
-          {
-            text: 'Status',
-            link: '/status/'
-          },
-          {
-            text: 'About',
-            link: '/about/'
-          },
-          {
-            text: 'Github',
-            link: 'https://github.com/sdustlug'
-          }
-        ],
-        sidebar: {}
-      },
       '/': {
         nav: [{
             text: '主页',
