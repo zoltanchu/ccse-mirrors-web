@@ -1,5 +1,23 @@
 # Status
 
+## Network Traffic
+<picture>
+    <source srcset="/status/network-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="/status/network-light.png">
+</picture>
+
+## Http Request Total
+<picture>
+    <source srcset="/status/http-request-total-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="/status/http-request-total-light.png">
+</picture>
+
+## Http Request Duration
+<picture>
+    <source srcset="/status/http-request-duration-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="/status/http-request-duration-light.png">
+</picture>
+
 ## CPU Usage
 <picture>
     <source srcset="/status/cpu-dark.png" media="(prefers-color-scheme: dark)">
@@ -18,12 +36,6 @@
     <img src="/status/disk-light.png">
 </picture>
 
-## Network Traffic
-<!-- ### Network Traffic (Last 24 Hours) -->
-<picture>
-    <source srcset="/status/network-dark.png" media="(prefers-color-scheme: dark)">
-    <img src="/status/network-light.png">
-</picture>
 
 <!-- ### Network Traffic (Last 7 Days) -->
 <!-- <picture>
