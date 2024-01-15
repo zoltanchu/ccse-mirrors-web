@@ -6,16 +6,10 @@
     <img src="/status/network-light.png">
 </picture>
 
-## Http Request Total
+## Http Request
 <picture>
     <source srcset="/status/http-request-total-dark.png" media="(prefers-color-scheme: dark)">
     <img src="/status/http-request-total-light.png">
-</picture>
-
-## Http Request Duration
-<picture>
-    <source srcset="/status/http-request-duration-dark.png" media="(prefers-color-scheme: dark)">
-    <img src="/status/http-request-duration-light.png">
 </picture>
 
 ## CPU Usage
