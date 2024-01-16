@@ -8,6 +8,7 @@ layout: HomeLayout
 
 问题反馈与镜像请求: lug@sdust.edu.cn
 
-_Powered by [mugi](https://github.com/sdustlug/mugi) and [ccse-mirrors-web](https://github.com/sdustlug/ccse-mirrors-web)_
+友情链接: [山东科技大学正版化软件平台](https://zbh.sdust.edu.cn/)
 
+_Powered by [mugi](https://github.com/sdustlug/mugi) and [ccse-mirrors-web](https://github.com/sdustlug/ccse-mirrors-web)_
 _Supported by SDUSTLUG_
