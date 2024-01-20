@@ -12,6 +12,18 @@
     <img src="/status/http-request-total-light.png">
 </picture>
 
+## Daily Network Traffic (Last 30 Days)
+<picture>
+    <source srcset="/status/network-analysis-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="/status/network-analysis-light.png">
+</picture>
+
+## Daily HTTP Request (Last 30 Days)
+<picture>
+    <source srcset="/status/http-request-analysis-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="/status/http-request-analysis-light.png">
+</picture>
+
 ## CPU Usage
 <picture>
     <source srcset="/status/cpu-dark.png" media="(prefers-color-scheme: dark)">
@@ -30,17 +42,7 @@
     <img src="/status/disk-light.png">
 </picture>
 
-### Daily Network Traffic (Last 30 Days)
-<picture>
-    <source srcset="/status/network-analysis-dark.png" media="(prefers-color-scheme: dark)">
-    <img src="/status/network-analysis-light.png">
-</picture>
 
-### Daily HTTP Request (Last 30 Days)
-<picture>
-    <source srcset="/status/http-request-analysis-dark.png" media="(prefers-color-scheme: dark)">
-    <img src="/status/http-request-analysis-light.png">
-</picture>
 
 <!-- ### Network Traffic (Last 7 Days) -->
 <!-- <picture>
