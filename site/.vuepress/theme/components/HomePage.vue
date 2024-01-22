@@ -72,7 +72,7 @@ $rightWrapper
   display flex
   flex-flow row wrap
   margin-top $navbarHeight
-  padding-bottom ($footerHeight + 2.5rem)
+  // padding-bottom ($footerHeight + 2.5rem)
 
 .main-content
   @extend $leftWrapper
@@ -87,10 +87,10 @@ $rightWrapper
   width 100%
 
 .footer
-  position absolute
-  bottom 0
+  // position absolute
+  // bottom 0
   width 100%
-  height $footerHeight
+  // height $footerHeight
   background-color $sustechDark
 
 .footer-container
